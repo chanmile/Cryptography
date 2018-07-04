@@ -32,7 +32,7 @@
     A number is "B powersmooth" if none of its prime factors are greater than B.
 
     From Wikipedia:
-        The essential objservation is that, by working in the multiplicative group modulo a 
+        The essential observation is that, by working in the multiplicative group modulo a 
         composite number N, we are also working in the multiplicative groups modulo all of N's factors.
 
     Pollard's performance will rapidly degrade if the composite_N's prime factors are large.
@@ -45,9 +45,9 @@ from fractions import gcd
 
 def pollard(composite_N,bound_B,expansion_X):
     '''
-        Takes N=PQ where p and q are porime factors and finds the prime factorization of N.
+        Takes N=PQ where p and q are prime factors and finds the prime factorization of N.
         Arguments:
-            n - composite number we wish to learn the factorization of
+            N - composite number we wish to learn the factorization of
             B - smoothness bound B
             X - upon exhausting the smoothness bound, B = X*B
     '''
