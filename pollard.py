@@ -14,9 +14,12 @@
 
     Suppose that a number <B> exists and (p-1) divides <B>!
     It follows that <B>! = (p-1)*j
-    Then z = a^(B!) === a^((p-1)*j) === 1^j mod p === 1 modp, and p is revealed.
+    Then z = a^(B!) === a^((p-1)*j) === 1^j mod p === 1 mod p, and p is revealed.
 
-    How do we find z?
+    Now what?
+    We iterate through z values, computing z === a^(<B>!), hoping that (p-1) divides <B>!
+    If this is the case, our path is clear and p is revealed.
+    
     Successively compute z_k = z_old^k mod n, and check if 1 < d < n where d = gcd(z-1,n)
     Since z = a^(b!) = a^(b1*b2*b3...bX), z can be computed successively like so:
 
