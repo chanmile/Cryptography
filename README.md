@@ -9,11 +9,15 @@ Computing Square Roots Mod X
 	
 	Hansel's Lifting Lemma
 
+
 Primality Testing
 	
 	Miller-Rabin Primality Test
 
+
 Factorization Method
+	
+	Pollard's p-1
 
 	Fermat's Factorization Method
 
