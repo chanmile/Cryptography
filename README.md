@@ -2,16 +2,21 @@
 Python Library for Various Cryptography Algorithms
 
 Computing Square Roots Mod X
+	
 	Tonelli-Shanks
 	
 	Chinese Remainder Theorem
 	
 	Hansel's Lifting Lemma
 
-Miller-Rabin Primality Test
+Primality Testing
+	
+	Miller-Rabin Primality Test
 
-Fermat's Factorization Method
+Factorization Method
 
-Quadratic Sieve
+	Fermat's Factorization Method
 
-Elliptic Curve Factorization Method 
+	Quadratic Sieve
+
+	Elliptic Curve Factorization Method 
